@@ -1,0 +1,55 @@
+.mymenu_anchor
+{
+  color:white !important;
+}
+
+.mynav_background
+{
+    background:linear-gradient(to left, red, #e52a97);
+}
+.notification
+{
+     background-color: rgb(128, 24, 139);
+     color:white;
+     text-align: center;
+}
+
+@media (min-width:576px)
+{
+.carousel-item img 
+{
+  height:400px;
+  object-fit: cover;
+}
+}
+
+#background-video
+{
+   height:400px;
+   object-fit: cover;
+}
+.video-text-over
+{
+  z-index:999;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.animation-text
+{
+   width:17ch;
+   overflow: hidden;
+   white-space:nowrap;
+   border-right:2px solid white ;
+   animation: pankaj 6.5s steps(14) infinite;
+}
+@keyframes pankaj
+{
+    from{width:0;}
+    to{width:17ch;}
+}
+.mycards
+{
+  margin-left:6%;
+}
