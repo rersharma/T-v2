@@ -49,7 +49,28 @@
     from{width:0;}
     to{width:17ch;}
 }
+@media(max-width:768px)
+{
 .mycards
 {
   margin-left:6%;
+}
+}
+
+@media(min-width:700px)
+{
+.mycards
+{
+  margin-left:2%;
+  width:31%;
+}
+}
+
+@media(max-width:576px)
+{
+.mycards
+{
+  margin-left:0%;
+  width:100%;
+}
 }
