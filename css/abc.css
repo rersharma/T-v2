@@ -54,8 +54,31 @@
 .mycards
 {
   margin-left:6%;
+  
 }
 }
+@media(min-width:992px)
+{
+  .mynavtablet
+{
+margin-top:3%;
+}
+}
+@media(min-width:768px)
+{
+  .mynavtablet
+{
+margin-top:4%;
+}
+}
+@media(max-width:576px)
+{
+  .mynavtablet
+{
+margin-top:10%;
+}
+}
+
 
 @media(min-width:700px)
 {
