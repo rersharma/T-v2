@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/abc.css"/>  
+    <link rel="icon" href="images/logo.webp"/>
+</head>
+<body>
+
+
+    <header>
+        <div class="notification d-block d-sm-none p-2 fixed-top">
+           call us : +919728082087
+        </div>
+        <div class="notification d-none d-sm-none d-md-block d-lg-none p-2 fixed-top">
+            Address:sco 112-113 First Floor Chandigarh
+         </div>
+         <div class="notification d-none d-sm-none d-md-none d-lg-block p-4  fixed-top">
+            Phone:+91-9728082087 , Address:sco 112-113 First Floor Chandigarh
+         </div>
+        <nav class="navbar navbar-expand-lg mynav_background fixed-top mynavtablet">
+            <div class="container-fluid">
+              <a class="navbar-brand mymenu_anchor" href="#"><img src="images/logo.webp" width="100" height="100"/></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active mymenu_anchor"  aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mymenu_anchor"  href="about.html">About us</a>
+                  </li>
+    
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle mymenu_anchor" data-bs-toggle="dropdown" href="#">Our Packages</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Travel Packages</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Latest offer</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Customize Packages</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mymenu_anchor"  aria-disabled="true"  href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mymenu_anchor" href="login.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mymenu_anchor" href="signup.html">New user?</a>
+                  </li>
+                </ul>
+                <form class="d-flex ms-auto" role="search" >
+                  <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-light" type="submit">Search</button>
+                </form>
+              </div>
+             
+            </div>
+          </nav>
+      </header>
+
+       <!-- MapBanner -->
+  
+ <div  style="position: relative;">
+    <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29010.854647476284!2d76.73031797431643!3d30.7224839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedad88991a07%3A0xb4de516e9171f70e!2sNetmax%20Technologies%20Private%20Limited!5e1!3m2!1sen!2sin!4v1729267442520!5m2!1sen!2sin"  height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="text-center video-text-over">
+          <button class="btn btn-danger">Get Directions</button>
+       </div>
+  </div>
+   <!-- Map Banner End -->
+
+   <div class="container-fluid mt-5">
+    <h2 class="text-center mb-5">Contact us</h2>
+    <div class="row mt-5">
+        <div class="col-sm-4 offset-sm-1" >
+         <img src="images/contactus.png" class="img-fluid" style="border-radius:30px;"/>
+        </div>
+        <div class="col-sm-5 offset-sm-1 contactdiv" style="border: 1px solid grey;border-radius:10px;">
+         <h3 class="text-center mt-2 p-3 bg-danger text-white">Reach Us!</h3>
+         <form action="contact.html" method="post">
+            <div class="mt-4">
+                <label for="to">Email:</label>
+                <input type="email" class="form-control mt-1 mb-4" id="to" placeholder="Enter Your Email-Id" required name="email"/>
+                <label for="sub">Subject:</label>
+                <input type="text" class="form-control mt-1 mb-4" id="sub" placeholder="Enter the Subject" required name="subject"/>
+                <label for="mobile">Mobile:</label>
+                <input type="number" class="form-control mt-1 mb-4" id="mobile" placeholder="Enter Your Mobile No" required name="Mobile"/>
+                <label for="enquiry">Enquiry Type:</label>
+                <select class="form-control mt-1 mb-4" id="enquiry"  required name="enquiry">
+                    <option value="" selected disabled>Select Your Reason</option>
+                    <option>Refund Payment</option>
+                    <option>Offer Regarding</option>
+                    <option>Recipt Bill</option>
+                    <option>Feedback</option>
+                </select>
+                <label for="message">Message:</label>
+                <textarea class="form-control mt-1 mb-4" id="message" required name="message"></textarea>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-danger">Submit</button>
+            </div>
+
+         </form>
+        </div>
+    </div>
+
+    </div>
+   </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
