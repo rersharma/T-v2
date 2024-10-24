@@ -119,3 +119,16 @@ margin-top:4%;
   width:100%;
 }
 }
+
+.category_link
+{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.liststyle
+{
+  list-style: none;
+}
